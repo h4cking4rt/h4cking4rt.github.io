@@ -1,5 +1,7 @@
 ---
-title: Markdown kitchen sink
+title: Hacking
+parent: Book
+
 nav_order: 99
 ---
 
