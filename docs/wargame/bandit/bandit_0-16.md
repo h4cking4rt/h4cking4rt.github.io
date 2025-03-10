@@ -6,6 +6,9 @@ nav_order: 1
 
 # bandit 00 ~ 16
 {: .no_toc }
+[bandit site](https://overthewire.org/wargames/bandit/bandit16.html)
+
+---  
 
 ## Table of Contents
 {: .no_toc .text-delta }
@@ -13,7 +16,9 @@ nav_order: 1
 - TOC
 {:toc}
 
-### [Level 0](https://overthewire.org/wargames/bandit/bandit0.html)
+---  
+
+## Level 0  
 
 > ssh 접속
 
@@ -21,15 +26,16 @@ nav_order: 1
 
 또는
 
-```ssh <username>@<remote> -p <port>```
-
-  - 참고
-
+```ssh <username>@<remote> -p <port>```  
+  
+	  
+  - 참고  
+  
 	[SSH메뉴얼](https://manpages.ubuntu.com/manpages/noble/man1/ssh.1.html)
 
+---
 
-
-### [Level 0 → Level 1](https://overthewire.org/wargames/bandit/bandit1.html)
+## Level 0 → Level 1  
 
 > readme 파일 확인하기
 
@@ -53,10 +59,11 @@ nav_order: 1
 
 	[cat메뉴얼](https://manpages.ubuntu.com/manpages/noble/en/man1/cat.1.html)
 
+---
 
-### [Level 1 → Level 2](https://overthewire.org/wargames/bandit/bandit2.html)
+## Level 1 → Level 2  
 
-> 파일이름이 - 일 때
+> 파일이름이 - 일 때  
 
 ​	`cat -` : 표준 입력을 출력. - 파일의 내용을 출력할 수 없음
 
@@ -68,14 +75,12 @@ nav_order: 1
 
 <details>
 	<summary>password</summary>
-	
     	263JGJPfgU6LtdEvgfWU1XP5yac29mFx
-	
 </details>
 
+---
 
-
-### [Level 2 → Level 3](https://overthewire.org/wargames/bandit/bandit3.html)
+## Level 2 → Level 3  
 
 > 파일 이름에 공백이 있을 때
 
@@ -87,14 +92,12 @@ nav_order: 1
 
 <details>
 	<summary>password</summary>
-	
     	MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
-	
 </details>
 
+---
 
-
-### [Level 3 → Level 4](https://overthewire.org/wargames/bandit/bandit4.html)
+## Level 3 → Level 4  
 
 > 숨겨진 파일
 
@@ -102,14 +105,12 @@ nav_order: 1
 
 <details>
 	<summary>password</summary>
-	
     	2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
-	
 </details>
 
+---
 
-
-### [Level 4 → Level 5](https://overthewire.org/wargames/bandit/bandit5.html)
+## Level 4 → Level 5  
 
 > 사람이 읽을 수 있는 파일
 
@@ -130,9 +131,9 @@ ASCII text : 순수 텍스트만 포함되어 있는 파일
 
 	[file 메뉴얼](https://manpages.ubuntu.com/manpages/oracular/en/man1/file.1posix.html)
 
+---
 
-
-### [Level 5 → Level 6](https://overthewire.org/wargames/bandit/bandit6.html)
+## Level 5 → Level 6  
 
 > - human-readable
 > - 1033 bytes in size
@@ -142,18 +143,16 @@ ASCII text : 순수 텍스트만 포함되어 있는 파일
 
 <details>
 	<summary>password</summary>
-	
     	HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
-	
 </details>
 
   - 참고
 
 	[find메뉴얼](https://manpages.ubuntu.com/manpages/oracular/en/man1/find.1posix.html)
 
+---
 
-
-### [Level 6 → Level 7](https://overthewire.org/wargames/bandit/bandit7.html)
+## Level 6 → Level 7  
 
 > - somewhere on the server
 > - owned by user bandit7
@@ -172,14 +171,12 @@ Permission denied 가 너무 많이 뜰 때
 
 <details>
 	<summary>password</summary>
-	
     	morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
-	
 </details>
 
+---
 
-
-### [Level 7 → Level 8](https://overthewire.org/wargames/bandit/bandit8.html)
+## Level 7 → Level 8  
 
 > **data.txt** 파일 속 **millionth** 라는 단어 옆에 패스워드
 
@@ -187,18 +184,16 @@ Permission denied 가 너무 많이 뜰 때
 
 <details>
 	<summary>password</summary>
-	
     	dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
-	
 </details>
 
   - 참고
 
 	[grep메뉴얼](https://manpages.ubuntu.com/manpages/noble/en/man1/grep.1.html)
 
+---
 
-
-### [Level 8 → Level 9](https://overthewire.org/wargames/bandit/bandit9.html)
+## Level 8 → Level 9  
 
 > **data.txt** 파일 안에서 한번만 나오는 줄
 
@@ -210,9 +205,7 @@ Permission denied 가 너무 많이 뜰 때
 
 <details>
 	<summary>password</summary>
-	
     	4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
-	
 </details>
 
   - 참고
@@ -221,9 +214,9 @@ Permission denied 가 너무 많이 뜰 때
 
 	[uniq메뉴얼](https://manpages.ubuntu.com/manpages/noble/en/man1/uniq.1.html)
 
+---
 
-
-### [Level 9 → Level 10](https://overthewire.org/wargames/bandit/bandit10.html)
+## Level 9 → Level 10  
 
 > **data.txt** 파일 안에서 여러개의 '='가 앞에 들어간, 사람이 읽을 수 있는 문장
 
@@ -233,18 +226,16 @@ Permission denied 가 너무 많이 뜰 때
 
 <details>
 	<summary>password</summary>
-	
     	FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
-	
 </details>
 
   - 참고
 
 	[stirings메뉴얼](https://manpages.ubuntu.com/manpages/noble/en/man1/strings.1posix.html)
 
+---
 
-
-### [Level 10 → Level 11](https://overthewire.org/wargames/bandit/bandit11.html)
+## Level 10 → Level 11  
 
 > **data.txt** 파일 안에서 base64로 인코딩된 데이터
 
@@ -252,18 +243,16 @@ Permission denied 가 너무 많이 뜰 때
 
 <details>
 	<summary>password</summary>
-	
     	dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
-	
 </details>
 
   - 참고
 
 	[base64메뉴얼](https://manpages.ubuntu.com/manpages/noble/en/man1/strings.1posix.html)
 
+---
 
-
-### [Level 11 → Level 12](https://overthewire.org/wargames/bandit/bandit12.html)
+## Level 11 → Level 12  
 
 > **data.txt** 파일 안에서 패스워드가 모든 소문자(a-z)와 대문자(A-Z)가 각각 13자리씩 회전(ROT13)
 
@@ -273,9 +262,7 @@ Permission denied 가 너무 많이 뜰 때
 
 <details>
 	<summary>password</summary>
-	
     	7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
-	
 </details>
 
   - 참고
@@ -284,9 +271,9 @@ Permission denied 가 너무 많이 뜰 때
 
 	[ROT13에 대하여](https://en.wikipedia.org/wiki/ROT13)
 
+---
 
-
-### [Level 12 → Level 13](https://overthewire.org/wargames/bandit/bandit13.html)
+## Level 12 → Level 13  
 
 > -  **data.txt** 파일에 패스워드 있음
 > - 여러번 압축된 hexdump 파일
@@ -313,10 +300,8 @@ Permission denied 가 너무 많이 뜰 때
 
 <details>
 	<summary>디렉토리 이름 및 password</summary>
-	
-        디렉토리 이름 : /tmp/tmp.dguLvEeKt5<br>
+      디렉토리 이름 : /tmp/tmp.dguLvEeKt5<br>
     	패스워드 : FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
-	
 </details>
 
   - 참고
@@ -331,9 +316,9 @@ Permission denied 가 너무 많이 뜰 때
 
 	[tar메뉴얼](https://manpages.ubuntu.com/manpages/noble/en/man1/tar.1.html)
 
+---
 
-
-- [Level 13 → Level 14](https://overthewire.org/wargames/bandit/bandit14.html)
+## Level 13 → Level 14  
 
 > - 패스워드는 **/etc/bandit_pass/bandit14** 에 있음
 > - bandit14 계정만 읽을 수 있음
@@ -343,14 +328,12 @@ Permission denied 가 너무 많이 뜰 때
 
 <details>
 	<summary>password</summary>
-	
     	패스워드 : MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
-	
 </details>
 
+---
 
-
-### [Level 14 → Level 15](https://overthewire.org/wargames/bandit/bandit15.html)
+## Level 14 → Level 15  
 
 > **port 30000 on localhost** 에 키 존재
 
@@ -360,9 +343,7 @@ Permission denied 가 너무 많이 뜰 때
 
 <details>
 	<summary>password</summary>
-	
     	패스워드 : 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
-	
 </details>
 
   - 참고
@@ -371,9 +352,9 @@ Permission denied 가 너무 많이 뜰 때
 
 	[telnet메뉴얼](https://manpages.ubuntu.com/manpages/xenial/man1/telnet-ssl.1.html)
 
+---
 
-
-### [Level 15 → Level 16](https://overthewire.org/wargames/bandit/bandit16.html)
+## Level 15 → Level 16  
 
 >**port 30001 on localhost** 에 SSL/TLS 암호화를 통해 연결하면 암호 획득
 
@@ -383,9 +364,7 @@ Permission denied 가 너무 많이 뜰 때
 
 <details>
 	<summary>password</summary>
-	
     	패스워드 : kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
-	
 </details>
 
   - 참고

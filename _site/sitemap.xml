@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/404</loc>
+</url>
+<url>
+<loc>http://localhost:4000/docs/wargame/bandit/bandit_0-16/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/docs/study/book/child_default/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/docs/study/book/hacking/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/docs/wargame/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/docs/contact/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/docs/language/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/docs/study/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/docs/wargame/bandit/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/docs/project/</loc>
+</url>
+</urlset>

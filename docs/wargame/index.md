@@ -1,6 +1,6 @@
 ---
 title: Wargame
-nav_order: 1
+nav_order: 2
 ---
 
 # Wargame
